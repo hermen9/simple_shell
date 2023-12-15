@@ -5,7 +5,7 @@
 * @pth: tokenized path
 * @cmd: user entered command
 *
-* Return: path 
+* Return: path
 */
 char *trypath(char **pth, char *cmd)
 {

@@ -2,7 +2,7 @@
 
 /**
  * execute - executes cmds given by users
- *@cp: cmd
+ *@cnp: cmd
  *@cmd: array of pointers to cmd
  * Return: 0
  */
@@ -14,7 +14,7 @@ void execute(char *cnp, char **cmd)
 
 	child_pid = fork();
 	if (child_pid < 0)
-		perror(cp);
+		perror(cnp);
 	if (child_pid == 0)
 	{
 		execve(cnp, cmd, env);

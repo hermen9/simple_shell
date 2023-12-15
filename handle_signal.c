@@ -6,7 +6,7 @@
  *Return: 0
  */
 
-void handle_signal(int m)
+void control_signal(int m)
 {
 	(void)m;
 	write(STDERR_FILENO, "\n", 1);

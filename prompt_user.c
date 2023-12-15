@@ -2,7 +2,7 @@
 
 /**
 * popup_user - prints $ to screen
-* 
+*
 * Return: no
 */
 void popup_user(void)

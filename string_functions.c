@@ -23,7 +23,7 @@ int strcmp(char *sc1, char *sc2)
 * strlen - returns  length of string
 * @str: string passed
 *
-* Return: length of string 
+* Return: length of string
 */
 int strlen(char *str)
 {
